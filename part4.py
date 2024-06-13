@@ -36,5 +36,8 @@ def task_5():
 
 
 if __name__ == "__main__":
+    task_1()
+    task_2()
+    print(task_3())
     print(task_4())
     task_5()
