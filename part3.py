@@ -49,6 +49,6 @@ def logic7(a, b):
 
 
 if __name__ == "__main__":
-    # logic5(0, 0)
+    logic5(0, 0)
     # logic6(2, 3)
     # logic7(3, 0)
