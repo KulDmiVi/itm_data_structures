@@ -9,8 +9,12 @@ def del_key_age(people):
     people.pop('age')
 
 
-if __name__ == "__main__":
+def modify_foot_size(people, foot_size):
+    """Удаление элемента из словаря по ключу"""
+    people['foot_size'] = foot_size
 
+
+if __name__ == "__main__":
     test_people = {
         'name': 'Василий Василиевич',
         'age': 27,
@@ -22,4 +26,6 @@ if __name__ == "__main__":
 
     people_info(test_people)
     del_key_age(test_people)
+    print(test_people)
+    modify_foot_size(test_people, 39)
     print(test_people)
