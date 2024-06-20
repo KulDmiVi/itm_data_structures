@@ -47,6 +47,8 @@ def first_digit(a):
 def last_second_digit(a):
     """Вывод последней и второй цифры трехзначного числа"""
     print(a % 10)
-    print((a - a//100) // 10)
+    print((a % 100) // 10)
 
 
+if __name__ == "__main__":
+    print(last_second_digit(254))
