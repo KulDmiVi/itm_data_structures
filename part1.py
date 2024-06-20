@@ -67,7 +67,7 @@ def difference_squares(a, b):
 
 
 def multiplication_squares(a, b):
-    """Нахождение разности квадратов двух чисел"""
+    """Нахождение произведения квадратов двух чисел"""
     return a ** 2 * b ** 2
 
 
